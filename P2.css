@@ -1,0 +1,174 @@
+.container
+	{
+		width: 100%;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+// Smartphones en mode paysage
+@media (min-width: 576px) 
+	{
+ .container {
+    max-width: 540px;
+  			}
+	}
+// Tablettes
+@media (min-width: 768px) 
+	{
+.container {
+    max-width: 720px;
+  			}
+	}
+// Grand écran
+@media (min-width: 992px) 
+	{
+.container {
+    max-width: 960px;
+  			}
+	}
+// Très grand écran
+@media (min-width: 1200px) 
+	{
+.container {
+    max-width: 1140px;
+  			}
+	}
+
+.container
+	{
+		border: 1px #000000 solid;
+	}
+
+body 
+	{
+	padding-top: 5rem;
+	font-family: Arial;
+	}
+
+.Photo
+	{
+		height: 255px;
+	}
+
+.Nom
+	{
+		height: 180px;
+		padding-top: 15px;
+	}
+
+.prenom
+	{
+		color: #ffca28;
+	}
+
+h1
+	{
+		font-size: 50px;
+	}
+
+.dev
+	{
+		text-decoration: underline;
+		text-decoration-color: #ffca28;
+	}
+
+#navbar 
+	{
+		background-color: #ffca28;
+		padding: 0px;
+		padding-bottom: 25px;
+	}
+
+#navbar header
+	{
+		text-align: center;
+		padding-top: 30px;
+	}
+
+#navbar p
+	{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+#navbar h3 
+	{	
+		color: #ffca28;
+		background-color: #000000;
+		text-align: center;
+		font-weight: normal;
+	}
+
+#texte
+	{
+		padding-left: 70px;
+		padding-top: 70px;
+		padding-right: 70px;
+		padding-bottom: 20px;
+	}
+
+.for
+	{
+		height: 50px;
+		border-bottom: 2px #ffca28 solid;
+		width: 600px;
+	}
+
+.exp 
+	{
+		height: 50px;
+		border-bottom: 2px #ffca28 solid;	
+		width: 600px;
+	}
+
+.rec
+	{
+		height: 50px;
+		border-bottom: 2px #ffca28 solid;
+		width: 600px;
+	}
+
+.apropos
+	{
+	height: 600px;
+	}
+
+h3
+	{
+		font-weight: bold;
+		font-size: 25px;
+	}
+
+h5
+	{
+		font-size: 20px;
+	}
+
+#texte i
+	{
+	color: #ffca28;
+	padding-right: 15px;
+	}
+
+.icones
+	{
+	text-align: center;
+	font-size: 55px;
+	}
+
+.fa-circle
+	{
+	font-size: 10px;
+	}
+
+.lieu
+	{
+	padding-left: 27px;
+	}
+
+.lieudot
+	{
+	padding-left: 30px;
+	}
