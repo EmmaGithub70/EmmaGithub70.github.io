@@ -54,7 +54,7 @@ body
 
 .Nom
 	{
-		height: 180px;
+		height: 200px;
 		padding-top: 15px;
 	}
 
@@ -111,28 +111,23 @@ h1
 
 .for
 	{
-		height: 50px;
-		border-bottom: 2px #ffca28 solid;
-		width: 600px;
+		border-bottom: 2px #ffca28 solid;	
 	}
 
 .exp 
 	{
-		height: 50px;
+
 		border-bottom: 2px #ffca28 solid;	
-		width: 600px;
 	}
 
 .rec
 	{
-		height: 50px;
 		border-bottom: 2px #ffca28 solid;
-		width: 600px;
 	}
 
 .apropos
 	{
-	height: 600px;
+	height: 550px;
 	}
 
 h3
