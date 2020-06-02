@@ -1,33 +1,47 @@
 <!DOCTYPE html>
-<!-- Doctype Html5 pour l'utilisation de Boostrap -->
+<!-- Doctype au format Html5 pour l'utilisation de Bootstrap -->
 <html>
 
 <head>
-<!-- Entete indiquant des charactéristiques de base du document non visibles sur le site -->
+<!-- Entete indiquant des charactéristiques de base du document, non visible sur le site -->
 	<meta charset="utf-8">
-	<!-- Prise en charge automatique -->
+	<!-- Prise en charge automatique des caractères spéciaux(accents, symboles de la plupart des langues) -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Ouvre la fenêtre à la largeur de l'écran des mobiles -->
+    <!-- Ouvre la fenêtre à la largeur physique effective de l'écran des mobiles -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- lien vers Bootstrap -->
+    <!-- Lien absolu vers l'application Bootstrap de formatage -->
     <link rel="stylesheet" href="P2.css">
-    <!-- lien vers la page CSS de formatage -->
+    <!-- Lien relatif vers la page CSS de formatage -->
     <script src="https://kit.fontawesome.com/febe4ff94d.js" crossorigin="anonymous"></script>
+    <!-- Lien absolu vers le site d'icones Font Awesome -->
 	<title>P2</title>
+	<!-- Titre de la page tel qu'il apparait dans l'onglet navigateur et les résultats des recherches web -->
 </head>
 
-<body> 
-	<div class="container">
-		<div class="row">
+<!------------------------------------------------------------------------------------------------------------>
 
-			<!-- Partie de gauche -->
-			<section id="navbar" class="col-md-4">
-				<!--Photo"-->
-				<header class="Photo">
+<body> 
+<!-- contenu visible du site web -->
+	<div class="container">
+	<!-- Conteneur dans laquelle la grille bootstrap s'insère -->
+	<!-- Conteneur à largeur fixe qui s'adapte selon la largeur de l'écran utilisé -->
+		<div class="row">
+		<!--rangée de base de la page dans laquelle s'incrivent 2 sections de largeurs de 4 et 8 colonnes -->
+
+		<!--------------------------------------------------------------------------------------------------->
+
+			<!-- 1ere section de gauche -->
+			<section id="general" class="col-md-4">
+			<!-- section d'une largeur de 4/12 colonnes nommée "general" pour le formatage css-->
+
+				<header class="photo">
+				<!-- Entête de la section 1 comprenant la photo -->
 					<img src="emma_mini.JPG" class="rounded-circle" alt="Photo">
+					<!-- lien relatif vers la photo présente dans le même dossier que le fichier html et formatage bootstrap en cercle -->
 				</header>
-				<!--Contact-->
-				<article class="contact">
+
+				<article>
+				<!-- 1er article contenant les informations de contact -->
 					<h3>CONTACT</h3><br>
 					<p>Adresse<br>
 					Mulhouse, France</p>
@@ -38,14 +52,16 @@
 					<p>Linkedin<br>
 					https://www.linkedin.com/in/emmanuelle-soutter-66729924</p><br>
 				</article>
-				<!-- A Propos-->
+
 				<article class="apropos">
+				<!-- 2eme article d'informations générales et nommée "apropos" pour le formatage css-->
 					<h3>A PROPOS DE MOI</h3><br>
 					<P>Professionnelle des achats, j'ai acquis des compétences dans les domaines suivants:<br>
 					Budgétisation<br>Analyse statistique<br>Suivi de tendances<br>Création de collections<br>Marketing-Mix<br>Management fournisseurs<br>Négociations internationales<br>Foires Expo<br>Voyages internationaux<br>Management<br>Formation<br>Management de projets<br>Organisation d'évênements</P><br>
 				</article>
-				<!--Loisir-->
-				<footer class="Loisirs">
+
+				<footer>
+				<!-- Pied de page présentant les icones de loisirs du site Font Awesome -->
 					<h3>LOISIRS</h3><br>
 					<div class="icones">		
                     <i class="fas fa-mountain icon"></i>       
@@ -55,45 +71,55 @@
                 </footer>
 			</section>
 
-			<!--Partie de droite-->
+		<!--------------------------------------------------------------------------------------------------->
+
+			<!--2eme section de droite -->
 			<section id="texte" class="col-md-8">
-				<!--Nom-->
-				<header class="Nom">
+			<!-- section d'une largeur de 8/12 colonnes nommée "texte" pour le formatage css-->
+
+				<header class="nom">
+				<!-- Entete de la section 2 comprenant nom et prenom -->
 					<h1><span class="prenom">EMMANUELLE</span> SOUTTER</h1>
+					<!-- span class balise inline pour le formatage individuel d'une partie du texte -->
 					<h4><span class="dev">Dével</span>oppeuse web freelance</h4>
 				</header>
-				<!--Formation-->
-				<article class="Formation">
+
+				<article>
+				<!-- article sur les formations -->
 					<div class="for">
+					<!-- div pour le formatage css de la ligne jaune du bord supérieur -->
 					<h3><i class="fas fa-graduation-cap"></i>FORMATION</h3></div><br>
+					<!-- icone du site Font Awesome pour le titre -->
 					<div class="row">
+					<!-- article articulé en deux parties de 5 et 7 colonnes -->
 						<div class="col-md-5">
-							<div class="dates">
+						<!-- partie de gauche contenant les dates -->
 							<i class="far fa-dot-circle"></i>2020<br>
+							<!-- icone du site Font Awesome et date -->
 							<span class="lieudot">Paris</span>
-							</div>
+							<!-- span class balise inline pour le formatage css d'indentation du lieu de formation -->
+							<!-- 30px avec le point cerclé -->
 						</div>
 						<div class="col-md-7">
+						<!-- partie de droite contenant le descriptf des formations -->
 							<h4>OPENCLASSROOMS</h4>
 							<h6>Web Designer</h6>
 							HTML, CSS, Bootstrap, Photoshop, WordPress.<br><br>
 						</div>
 						<div class="col-md-5">
-							<div class="dates">
 							<i class="fas fa-circle"></i>2012-2014<br>
 							<span class="lieu">Mulhouse</span>
-							</div>
+							<!-- span class balise inline pour le formatage css d'indentation du lieu de formation -->
+							<!-- 27px avec le point simple -->
 						</div>
 						<div class="col-md-7">
 							<h4>UNIVERSITE HAUTE-ALSACE</h4>
 							<h6>Master Achat et Logistique</h6>
 							Techniques d'approvisionnement et de flux logistiques.<br><br>
 						</div>
-						<div class="col-md-5">
-							<div class="dates">	
+						<div class="col-md-5">	
 							<i class="fas fa-circle"></i>1991-1995<br>
 							<span class="lieu">Lawrence, USA</span>
-							</div>
 						</div>
 						<div class="col-md-7">
 							<h4>UNIVERSITY OF KANSAS</h4>
@@ -102,16 +128,14 @@
 						</div>					
 					</div>	
 				</article>
-				<!--Experience-->
-				<article class="Experience">
+
+				<article>
 					<div class="exp">
 						<h3><i class="fas fa-briefcase"></i>EXPERIENCE PROFESSIONELLE</h3></div><br>
 					<div class="row">
 						<div class="col-md-5">
-							<div class="dates">
 							<i class="far fa-dot-circle"></i>Jan 2016 - Nov 2020<br>
 							<span class="lieudot">Uznach</span>
-							</div>
 						</div>
 						<div class="col-md-7">
 							<h4>VOEGELE SHOES</h4>
@@ -119,10 +143,8 @@
 							Création de collections MDD et de marques externes.<br><br>
 						</div>
 						<div class="col-md-5">
-							<div class="dates">
 							<i class="fas fa-circle"></i>Jui 2013 - Dec 2015<br>
 							<span class="lieu">Dietikon</span>
-							</div>
 						</div>
 						<div class="col-md-7">
 							<h4>OCHSNER SHOES</h4>
@@ -130,10 +152,8 @@
 							Responsable du département Chaussures femme.<br><br>
 						</div>
 						<div class="col-md-5">
-							<div class="dates">
 							<i class="fas fa-circle"></i>Aout 2003 - Juil 2012<br>
 							<span class="lieu">Pratteln</span>
-							</div>
 						</div>
 						<div class="col-md-7">
 							<h4>BATA SHOES</h4>
@@ -142,12 +162,13 @@
 						</div>					
 					</div>	
 				</article>
-				<!--recommandations-->
-				<footer class="Recommandations">
+
+				<footer>
+				<!-- Pied de section 2 contenant les recommandations -->
 					<div class="rec">
-						<h3><i class="fas fa-pencil-alt"></i>
-						RECOMMANDATIONS</h3></div><br>
+						<h3><i class="fas fa-pencil-alt"></i>RECOMMANDATIONS</h3></div><br>
 					<div class="row">
+					<!-- Pied de section articulé en deux partie de 6 colonnes chacune-->
 						<div class="col-md-6">
 							<h6>ADRIAN GROSSHOLZ</h6>
 							CEO, LIPO<br>
@@ -163,14 +184,21 @@
 					</div>
 				</footer>
 			</section>
-		</div>
-	</div>
 
+		<!--------------------------------------------------------------------------------------------------->
+
+		</div>
+		<!-- fermeture div row de la page -->
+	</div>
+	<!-- fermeture div container -->
 
  	<!-- Optional JavaScript -->
-    	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    	<!-- JQuery first, then Popper JS, then Bootstrap JS -->
     	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+
+<!------------------------------------------------------------------------------------------------------------>
+
 </html>
