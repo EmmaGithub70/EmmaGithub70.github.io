@@ -104,7 +104,7 @@ body
 .apropos
 	/* Formatage de la hauteur de la partie "A propos" pour garder la proportion generale */
 	{
-	height: 550px;
+	height: 500px;
 	}
 .icones
 	/* Formatage centralisé et grandeur des icones */
@@ -116,10 +116,9 @@ body
 /* FORMATAGE DE LA SECTION DE DROITE ------------------------------------------------------------------*/
 /* HEADER */
 .nom
-	/* Formatage de la hauteur de l'entete et padding top */
+	/* Formatage de la hauteur de l'entete */
 	{
 		height: 185px;
-		padding-top: 15px;
 	}
 .prenom
 	/* Formatage de la couleur du prénom */
@@ -129,7 +128,7 @@ body
 h1
 	/* Formatage de la hauteur du nom/prenom */
 	{
-		font-size: 45px;
+		font-size: 60px;
 	}
 .dev
 	/* Formatage de la partie "devel", soulignée et couleur du soulignement */
@@ -138,12 +137,11 @@ h1
 		text-decoration-color: #ffca28;
 	}
 #texte
-	/* Positionnement du texte du Header */
+	/* Positionnement du texte */
 	{
 		padding-left: 30px;
 		padding-top: 70px;
-		padding-right: 50px;
-		padding-bottom: 20px;
+		padding-right: 30px;
 	}
 
 /* ARTICLES */
@@ -170,6 +168,7 @@ h3
 	{
 		font-weight: bold;
 		font-size: 25px;
+		padding-top: 20px;
 	}
 #texte i
 	/* Couleur et espacement avec les dates des icones de point */
