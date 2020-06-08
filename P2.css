@@ -64,7 +64,7 @@ body
 	{
 		background-color: #ffca28;
 		padding: 0px;
-		padding-bottom: 25px;
+		padding-bottom: 20px;
 	}
 
 /* PHOTO */
@@ -92,6 +92,7 @@ body
 		background-color: #000000;
 		text-align: center;
 		font-weight: normal;
+		padding-top: 0px;
 	}
 
 /* TEXTES */
@@ -104,10 +105,10 @@ body
 .apropos
 	/* Formatage de la hauteur de la partie "A propos" pour garder la proportion generale */
 	{
-	height: 500px;
+	height: 550px;
 	}
 .icones
-	/* Formatage centralisé et grandeur des icones */
+	/* Formatage centralisé et taille des icones */
 	{
 	text-align: center;
 	font-size: 55px;
@@ -116,9 +117,9 @@ body
 /* FORMATAGE DE LA SECTION DE DROITE ------------------------------------------------------------------*/
 /* HEADER */
 .nom
-	/* Formatage de la hauteur de l'entete */
+	/* Formatage de la hauteur du bloc dédié à l'entete */
 	{
-		height: 185px;
+		height: 195px;
 	}
 .prenom
 	/* Formatage de la couleur du prénom */
@@ -126,7 +127,7 @@ body
 		color: #ffca28;
 	}
 h1
-	/* Formatage de la hauteur du nom/prenom */
+	/* Formatage de la taille du nom/prenom */
 	{
 		font-size: 60px;
 	}
@@ -140,8 +141,8 @@ h1
 	/* Positionnement du texte */
 	{
 		padding-left: 30px;
-		padding-top: 70px;
-		padding-right: 30px;
+		padding-top: 65px;
+		padding-right: 50px;
 	}
 
 /* ARTICLES */
@@ -163,8 +164,9 @@ h1
 		border-bottom: 2px #ffca28 solid;
 	}
 h3
-	/* Hauteur et épaisseur de la police des titres Formation,
-	Expérience Professionnelle et Recommandations */
+	/* Taille et épaisseur de la police des titres Formation,
+	Expérience Professionnelle et Recommandations, 
+	espacement avec la partie du dessus*/
 	{
 		font-weight: bold;
 		font-size: 25px;
@@ -177,7 +179,7 @@ h3
 	padding-right: 15px;
 	}
 .fa-circle
-	/* Grandeur des icones de point simple */
+	/* Taille des icones de point simple */
 	{
 	font-size: 10px;
 	}
