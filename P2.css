@@ -1,7 +1,8 @@
-/* FORMATAGE GENERAL DE LA PAGE -----------------------------------------------------------------------*/
+/* FORMATAGE GENERAL DE LA PAGE ------------------------------------------*/
 /* CONTENEUR */
 .container
-	/* Centrage du conteneur de la grille Bootstrap avec de petites marges internes gauche et droite et
+	/* Centrage du conteneur de la grille Bootstrap avec de petites marges 
+	internes gauche et droite et
 	des marges externes gauche et droite automatiques */
 	{
 		width: 100%;
@@ -13,28 +14,28 @@
 
 /* VISUALISATION MEDIAS */
 /* Regles de largeur d'écran selon les médias utilisés */
-// Smartphones en mode paysage
+//Smartphones en mode paysage
 @media (min-width: 576px) 
 	{
  .container {
     max-width: 540px;
   			}
 	}
-// Tablettes
+//Tablettes
 @media (min-width: 768px) 
 	{
 .container {
     max-width: 720px;
   			}
 	}
-// Grand écran
+//Grand écran
 @media (min-width: 992px) 
 	{
 .container {
     max-width: 960px;
   			}
 	}
-// Très grand écran
+//Très grand écran
 @media (min-width: 1200px) 
 	{
 .container {
@@ -50,14 +51,14 @@ body
 	}
 
 
-/* FORMATAGE DE LA SECTION DE GAUCHE ------------------------------------------------------------------*/
-/* FOND */
+/* FORMATAGE DE LA SECTION DE GAUCHE -----------------------------------------*/
 #general 
 	/* Formatage du fond (id --> #): 
 		- couleur, 
 		- annulation des paddings auto de Bootstrap de gauche et droite 
 		pour que cadre noir des titres prenne toute la largeur, 
-		- padding du bas pour que les icones de loisirs soient bien détachées du bord */
+		- padding du bas pour que les icones de loisirs soient bien détachées 
+		du bord */
 	{
 		background-color: #ffca28;
 		padding: 0px;
@@ -71,7 +72,8 @@ body
 		height: 255px;
 	}
 #general header
-	/* Formatage de l'emplacement centré horizontalement de la photo, padding top */
+	/* Formatage de l'emplacement centré horizontalement de 
+	la photo, padding top */
 	{
 		text-align: center;
 		padding-top: 30px;
@@ -100,7 +102,8 @@ body
 		padding-right: 30px;
 	}
 .apropos
-	/* Formatage de la hauteur de la partie "A propos" pour garder la proportion generale */
+	/* Formatage de la hauteur de la partie "A propos" pour garder la proportion 
+	generale */
 	{
 	height: 550px;
 	}
@@ -111,7 +114,7 @@ body
 	font-size: 55px;
 	}
 
-/* FORMATAGE DE LA SECTION DE DROITE ------------------------------------------------------------------*/
+/* FORMATAGE DE LA SECTION DE DROITE -------------------------------------------*/
 /* HEADER */
 .nom
 	/* Formatage de la hauteur du bloc dédié à l'entete */
