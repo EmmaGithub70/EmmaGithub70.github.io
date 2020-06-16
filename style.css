@@ -1,0 +1,180 @@
+/* FORMATAGE GENERAL DE LA PAGE */
+/* CONTENEUR */
+.container
+	/* Centrage du conteneur de la grille Bootstrap avec de petites marges internes gauche et droite et
+	des marges externes gauche et droite automatiques */
+	{
+		width: 100%;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+/* VISUALISATION MEDIAS */
+/* Regles de largeur d'écran selon les médias utilisés */
+/* Smartphones en mode paysage */
+@media (min-width: 576px) 
+	{
+ .container {
+    max-width: 540px;
+  			}
+	}
+/* Tablettes */
+@media (min-width: 768px) 
+	{
+.container {
+    max-width: 720px;
+  			}
+	}
+/* Grand écran */
+@media (min-width: 992px) 
+	{
+.container {
+    max-width: 960px;
+  			}
+	}
+/* Très grand écran */
+@media (min-width: 1200px) 
+	{
+.container {
+    max-width: 1140px;
+  			}
+	}
+
+/* PAGE */
+body
+	/* Formatage de la police de caractère du document */
+	{
+	font-family: Arial;
+	}
+
+
+/* FORMATAGE DE LA SECTION DE GAUCHE */
+/* FOND */
+#general 
+	/* Formatage du fond (id --> #): 
+		- couleur, 
+		- annulation des paddings auto de Bootstrap de gauche et droite 
+		pour que cadre noir des titres prenne toute la largeur, 
+		- padding du bas pour que les icones de loisirs soient bien détachées 
+		du bord */
+	{
+		background-color: #ffca28;
+		padding: 0px;
+		padding-bottom: 20px;
+	}
+
+/* PHOTO */
+.photo
+	/* Formatage de la hauteur du block destiné à la photo */
+	{
+		height: 255px;
+	}
+#general header
+	/* Formatage de l'emplacement centré horizontalement de 
+	la photo, padding top */
+	{
+		text-align: center;
+		padding-top: 30px;
+	}
+
+/* TITRES */
+#general h2 
+	/* Formatage des titres:
+		- couleur de la police,
+		- couleur du fond,
+		- centrage horizontal,
+		- épaisseur atténuée du formatage par défaut d'un titre h3 */
+	{	
+		color: #ffca28;
+		background-color: #000000;
+		text-align: center;
+		font-weight: normal;
+		padding-top: 0px;
+	}
+
+/* TEXTES */
+#general p
+	/* Formatage des paddings gauche et droit */
+	{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+.apropos
+	/* Formatage de la hauteur de la partie "A propos" pour garder la proportion generale */
+	{
+	height: 550px;
+	}
+.icones
+	/* Formatage centralisé et taille des icones */
+	{
+	text-align: center;
+	font-size: 55px;
+	}
+
+/* FORMATAGE DE LA SECTION DE DROITE */
+/* HEADER */
+.nom
+	/* Formatage de la hauteur du bloc dédié à l'entete */
+	{
+		height: 185px;	
+	}
+.prenom
+	/* Formatage de la couleur du prénom */
+	{
+		color: #ffca28;
+	}
+h1
+	/* Formatage de la taille du nom/prenom */
+	{
+		font-size: 60px;
+	}
+.dev
+	/* Formatage de la partie "devel", soulignée et couleur du soulignement */
+	{
+		text-decoration: underline;
+		text-decoration-color: #ffca28;
+	}
+#texte
+	/* Positionnement du texte */
+	{
+		padding-left: 30px;
+		padding-top: 65px;
+		padding-right: 50px;
+		padding-bottom: 20px;
+	}
+
+/* ARTICLES */
+
+h3
+	/* Taille et épaisseur de la police des titres Formation,
+	Expérience Professionnelle et Recommandations, 
+	espacement avec la partie du dessus*/
+	{
+		font-weight: bold;
+		font-size: 25px;
+		padding-top: 20px;
+		border-bottom: 2px #ffca28 solid;
+	}
+#texte i
+	/* Couleur et espacement avec les dates des icones de point */
+	{
+	color: #ffca28;
+	padding-right: 15px;
+	}
+.fa-circle
+	/* Taille des icones de point simple */
+	{
+	font-size: 10px;
+	}
+.lieu
+	/* Padding des lieux avec point simple */
+	{
+	padding-left: 27px;
+	}
+.lieudot
+	/* Padding des lieux avec point cerclé */
+	{
+	padding-left: 30px;
+	}
